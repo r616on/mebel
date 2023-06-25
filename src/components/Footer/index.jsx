@@ -24,36 +24,35 @@ const Footer = () => {
         <div className="footer-social">
           <div
             className="row"
-            style={{ display: 'flex', width: '100%', justifyContent: 'space-between', alignItems: 'center',alignSelf:"center" }}
+            style={{
+              display: 'flex',
+              width: '100%',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              alignSelf: 'center',
+            }}
           >
-            <div style={{ maxWidth: 150,display: 'flex',justifyContent:"center",alignItems: 'center',alignSelf:"center"}}>
+            <div
+              style={{
+                maxWidth: 150,
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                alignSelf: 'center',
+              }}
+            >
               <Logo />
             </div>
 
-            <div className="links" style={{width: '100%'}}>
-              <ul>
+            <div className="links" style={{ width: '100%', fontSize: 25, display: 'flex', justifyContent: 'end' }}>
+              <ul style={{ display: 'flex', gap: 20 }}>
                 <li>
-                  <a href="#">
-                    <i className="fa fa-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
-                    <i className="fa fa-google-plus"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://t.me/mebel_budu">
                     <i className="fa fa-telegram"></i>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://wa.me/qr/BOIRC3MKIT3LC1">
                     <i className="fa fa-whatsapp"></i>
                   </a>
                 </li>

@@ -6,28 +6,32 @@ const Navigate = () => {
     <nav className="navbar-fixed">
       <div className="container">
         <div className="navigation navigation-top clearfix">
-          <ul >
+          <ul>
             <li>
               <a href="tel:+79114916400">
                 <i className="fa fa-phone"> 8 911 491-64-00</i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://t.me/mebel_budu">
                 <i className="fa fa-telegram"></i>
               </a>
             </li>
             <li>
-              <a href="#">
+              <a href="https://wa.me/qr/BOIRC3MKIT3LC1">
                 <i className="fa fa-whatsapp"></i>
               </a>
             </li>
-           
           </ul>
         </div>
 
-        <div className="navigation navigation-main" style={{ display: 'flex', justifyContent: 'space-between',alignItems:"center" }}>
-         <div style={{}}><Logo /></div>
+        <div
+          className="navigation navigation-main"
+          style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}
+        >
+          <div style={{}}>
+            <Logo />
+          </div>
           <div className="floating-menu">
             <ul>
               <li>
