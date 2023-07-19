@@ -13,7 +13,7 @@ function App() {
 
         <section className="header-content">
           <div className="owl-slider">
-            <div className="item" style={{ backgroundImage: 'url(assets/images/gallery-1.jpg)' }}>
+            <div className="item" style={{ backgroundImage: 'url(assets/images/logo1.jpg)' }}>
               <div className="box">
                 <div className="container">
                   <h2 className="title animated h1" data-animation="fadeInDown">
@@ -27,7 +27,7 @@ function App() {
               </div>
             </div>
 
-            <div className="item" style={{ backgroundImage: 'url(assets/images/gallery-2.jpg)' }}>
+            <div className="item" style={{ backgroundImage: 'url(assets/images/logo2.jpg)' }}>
               <div className="box">
                 <div className="container">
                   <h2 className="title animated h1" data-animation="fadeInDown">
@@ -41,7 +41,7 @@ function App() {
               </div>
             </div>
 
-            <div className="item" style={{ backgroundImage: 'url(assets/images/gallery-3.jpg)' }}>
+            <div className="item" style={{ backgroundImage: 'url(assets/images/logo3.jpg)' }}>
               <div className="box">
                 <div className="container">
                   <h2 className="title animated h1" data-animation="fadeInDown">
@@ -159,7 +159,7 @@ function App() {
                   <div className="figure-grid">
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-1.png" alt="" width="360" />
+                        <img src="assets/images/product-1-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -201,7 +201,7 @@ function App() {
                   <div className="figure-grid">
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-2.png" alt="" width="360" />
+                        <img src="assets/images/product-2-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -244,7 +244,7 @@ function App() {
                     <span className="label label-warning">New</span>
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-3.png" alt="" width="360" />
+                        <img src="assets/images/product-1-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -285,7 +285,7 @@ function App() {
                   <div className="figure-grid">
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-4.png" alt="" width="360" />
+                        <img src="assets/images/product-2-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -327,7 +327,7 @@ function App() {
                     <span className="label label-info">-50%</span>
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-5.png" alt="" width="360" />
+                        <img src="assets/images/product-1-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -369,7 +369,7 @@ function App() {
                   <div className="figure-grid">
                     <div className="image">
                       <a href="#productid1" className="mfp-open">
-                        <img src="assets/images/product-6.png" alt="" width="360" />
+                        <img src="assets/images/product-2-1.jpg" alt="" width="360" />
                       </a>
                     </div>
                     <div className="text">
@@ -402,10 +402,89 @@ function App() {
                 </div>
 
                 <div className="owl-product-gallery">
-                  <img src="assets/images/product-1.png" alt="" width="640" />
-                  <img src="assets/images/product-2.png" alt="" width="640" />
-                  <img src="assets/images/product-3.png" alt="" width="640" />
-                  <img src="assets/images/product-4.png" alt="" width="640" />
+                  <img src="assets/images/product-1-1.jpg" alt="" width="640" />
+                  <img src="assets/images/product-1-2.jpg" alt="" width="640" />
+                  <img src="assets/images/product-1-3.jpg" alt="" width="640" />
+                </div>
+
+                <div className="popup-content">
+                  <div className="product-info-wrapper">
+                    <div className="row">
+                      <div className="col-sm-6">
+                        <div className="info-box">
+                          <strong>Maifacturer</strong>
+                          <span>Brand name</span>
+                        </div>
+                        <div className="info-box">
+                          <strong>Materials</strong>
+                          <span>Wood, Leather, Acrylic</span>
+                        </div>
+                        <div className="info-box">
+                          <strong>Availability</strong>
+                          <span>
+                            <i className="fa fa-check-square-o"></i> in stock
+                          </span>
+                        </div>
+                      </div>
+
+                      <div className="col-sm-6">
+                        <div className="info-box">
+                          <strong>Available Colors</strong>
+                          <div className="product-colors clearfix">
+                            <span className="color-btn color-btn-red"></span>
+                            <span className="color-btn color-btn-blue checked"></span>
+                            <span className="color-btn color-btn-green"></span>
+                            <span className="color-btn color-btn-gray"></span>
+                            <span className="color-btn color-btn-biege"></span>
+                          </div>
+                        </div>
+                        <div className="info-box">
+                          <strong>Choose size</strong>
+                          <div className="product-colors clearfix">
+                            <span className="color-btn color-btn-biege">S</span>
+                            <span className="color-btn color-btn-biege checked">M</span>
+                            <span className="color-btn color-btn-biege">XL</span>
+                            <span className="color-btn color-btn-biege">XXL</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="popup-table">
+                  <div className="popup-cell">
+                    <div className="price">
+                      <span className="h3">
+                        $ 1999,00 <small>$ 2999,00</small>
+                      </span>
+                    </div>
+                  </div>
+                  <div className="popup-cell">
+                    <div className="popup-buttons">
+                      <a href="product.html">
+                        <span className="icon icon-eye"></span> <span className="hidden-xs">View more</span>
+                      </a>
+                      <a href="javascript:void(0);">
+                        <span className="icon icon-cart"></span> <span className="hidden-xs">Buy</span>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="popup-main mfp-hide" id="productid2">
+              <div className="product">
+                <div className="popup-title">
+                  <div className="h1 title">
+                    Laura <small>product category</small>
+                  </div>
+                </div>
+
+                <div className="owl-product-gallery">
+                  <img src="assets/images/product-2-1.jpg" alt="" width="640" />
+                  <img src="assets/images/product-2-2.jpg" alt="" width="640" />
+                  <img src="assets/images/product-2-3.jpg" alt="" width="640" />
                 </div>
 
                 <div className="popup-content">
@@ -500,7 +579,7 @@ function App() {
               <div className="stretcher-logo">
                 <div className="text">
                   <span className="f-icon f-icon-bedroom"></span>
-                  <span className="text-intro">Bedroom</span>
+                  <span className="text-intro">Магазины</span>
                 </div>
               </div>
 
@@ -516,7 +595,7 @@ function App() {
               <div className="stretcher-logo">
                 <div className="text">
                   <span className="f-icon f-icon-sofa"></span>
-                  <span className="text-intro">Living room</span>
+                  <span className="text-intro">Кафе, рестораны</span>
                 </div>
               </div>
 
@@ -532,7 +611,7 @@ function App() {
               <div className="stretcher-logo">
                 <div className="text">
                   <span className="f-icon f-icon-office"></span>
-                  <span className="text-intro">Office</span>
+                  <span className="text-intro">Гостиницы</span>
                 </div>
               </div>
 
@@ -548,7 +627,7 @@ function App() {
               <div className="stretcher-logo">
                 <div className="text">
                   <span className="f-icon f-icon-bathroom"></span>
-                  <span className="text-intro">Bathroom</span>
+                  <span className="text-intro">Офисы</span>
                 </div>
               </div>
 
@@ -560,11 +639,20 @@ function App() {
               <a href="#">Anchor link</a>
             </li>
 
-            <li className="stretcher-item more">
-              <div className="more-icon">
-                <span data-title-show="Show more" data-title-hide="+"></span>
+            <li className="stretcher-item" style={{ backgroundImage: 'url(assets/images/gallery-5.jpg)' }}>
+              <div className="stretcher-logo">
+                <div className="text">
+                  <span className="f-icon f-icon-bathroom"></span>
+                  <span className="text-intro">Квартиры, дома</span>
+                </div>
               </div>
-              <a href="#"></a>
+
+              <figure>
+                <h4>Keeping Things Minimal</h4>
+                <figcaption>Creating Your Very Own Bathroom</figcaption>
+              </figure>
+
+              <a href="#">Anchor link</a>
             </li>
           </ul>
         </section>
