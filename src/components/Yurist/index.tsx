@@ -7,7 +7,7 @@ const Yourist = () => {
         <div className="row">
           <div className="col-md-offset-2 col-md-8 text-left">
             <h2 className="title">Для юридических лиц:</h2>
-            <ul className="list-group" style={{ display: 'flex', flexDirection: 'column', rubyAlign: 'left' }}>
+            <ul className="list-group" style={{ display: 'flex', flexDirection: 'column' }}>
               <li> Дополнительное торговое оборудование.</li>
               <li> Стеллажи хлебные.</li>
               <li> Тумбы для кофе-машин.</li>

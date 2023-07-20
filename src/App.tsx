@@ -142,8 +142,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>
@@ -184,8 +183,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>
@@ -226,8 +224,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>
@@ -268,8 +265,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>
@@ -309,8 +305,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>
@@ -352,8 +347,7 @@ function App() {
                       <a
                         href="javascript:void(0);"
                         data-title="Add to favorites"
-                        data-title-added="Added to favorites list"
-                      >
+                        data-title-added="Added to favorites list">
                         <i className="icon icon-heart"></i>
                       </a>
                     </span>

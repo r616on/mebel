@@ -1,7 +1,13 @@
 /* eslint-disable max-len */
+import { type } from 'os';
 import React from 'react';
 
-const Logo = (height = '70.86px', width = '283.46px') => {
+interface IProps {
+  height?: string;
+  width?: string;
+}
+
+const Logo: React.FC<IProps> = ({ height = '70.86px', width = '283.46px' }) => {
   return (
     <svg viewBox="0 0 283.4646 70.866096" id="svg2" height={height} width={width} version="1.1">
       <metadata id="metadata14"></metadata>

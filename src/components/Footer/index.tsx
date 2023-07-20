@@ -1,4 +1,3 @@
-import React from 'react';
 import Logo from '../Icon/Logo';
 
 const Footer = () => {
@@ -30,8 +29,7 @@ const Footer = () => {
               justifyContent: 'space-between',
               alignItems: 'center',
               alignSelf: 'center',
-            }}
-          >
+            }}>
             <div
               style={{
                 maxWidth: 150,
@@ -39,8 +37,7 @@ const Footer = () => {
                 justifyContent: 'center',
                 alignItems: 'center',
                 alignSelf: 'center',
-              }}
-            >
+              }}>
               <Logo />
             </div>
 
