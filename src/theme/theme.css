@@ -591,30 +591,30 @@ input, textarea, select {
     8. Sections
     ----------------------------------
 */
-/* section {
+section {
     padding-top: 30px;
     padding-bottom: 30px;
-} */
+}
 
 @media (min-width: 768px) {
-    /* section {
+    section {
         padding-top: 40px;
         padding-bottom: 40px;
-    } */
+    }
 }
 
 @media (min-width: 992px) {
-    /* section {
+    section {
         padding-top: 60px;
         padding-bottom: 60px;
-    } */
+    }
 }
 
 @media (min-width: 1200px) {
-    /* section {
+    section {
         padding-top: 80px;
         padding-bottom: 80px;
-    } */
+    }
 }
 
 /*  
@@ -624,7 +624,7 @@ input, textarea, select {
 */
 header {
     display: block;
-   
+    margin-bottom: 40px;
 }
 
 header .title {
@@ -647,7 +647,7 @@ header .text p:last-child {
     margin-bottom: 0;
 }
 
-/* @media (min-width: 768px) {
+@media (min-width: 768px) {
     header {
         margin-bottom: 40px;
     }
@@ -663,7 +663,7 @@ header .text p:last-child {
     header {
         margin-bottom: 40px;
     }
-} */
+}
 
 /*  
     ----------------------------------
@@ -1770,13 +1770,13 @@ nav .cart-wrapper.open {
 .header-content {
     padding: 0;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .header-content .item {
     height: 100vh;
     position: relative;
-    /* overflow: hidden; */
+    overflow: hidden;
     background-position: center;
     background-size: cover;
 }
@@ -5998,7 +5998,7 @@ footer .footer-social li a {
 }
 
 .info-icons.info-icons-frontpage {
-    /* margin-top: -100px; */
+    margin-top: -100px;
     padding: 0;
 }
 
