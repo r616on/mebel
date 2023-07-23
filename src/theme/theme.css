@@ -591,30 +591,30 @@ input, textarea, select {
     8. Sections
     ----------------------------------
 */
-section {
+/* section {
     padding-top: 30px;
     padding-bottom: 30px;
-}
+} */
 
 @media (min-width: 768px) {
-    section {
+    /* section {
         padding-top: 40px;
         padding-bottom: 40px;
-    }
+    } */
 }
 
 @media (min-width: 992px) {
-    section {
+    /* section {
         padding-top: 60px;
         padding-bottom: 60px;
-    }
+    } */
 }
 
 @media (min-width: 1200px) {
-    section {
+    /* section {
         padding-top: 80px;
         padding-bottom: 80px;
-    }
+    } */
 }
 
 /*  
