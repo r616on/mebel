@@ -27,7 +27,7 @@ export const HeaderTop = () => {
         </div>
         <Divider
           type="horizontal"
-          style={{ borderBlockStart: '1px solid rgba(255, 255, 255, 0.2)', margin: '5px 0' }}
+          style={{ borderBlockStart: '1px solid rgba(255, 255, 255, 0.2)', margin: '7px 0' }}
         />
       </div>
     </div>

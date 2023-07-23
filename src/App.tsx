@@ -11,6 +11,7 @@ import './fonts/fonts.css';
 
 import { HeaderTop } from './components/HeaderTop';
 import { HeaderBottom } from './components/HeaderBottom/HeaderBottom';
+import { CarouselRoute } from './components/CarouselRoute';
 
 function App() {
   return (
@@ -29,59 +30,12 @@ function App() {
           <HeaderBottom />
         </Layout.Header>
 
-        <Layout.Content style={{ padding: '0 50px' }}>
+        <Layout.Content style={{ padding: '0' }}>
+          <CarouselRoute />
           <div className="wrapper">
             {/* <section className="header-content">
             <div className="owl-slider"></div>
           </section> */}
-            <Carousel autoplay>
-              <div className="item" style={{ backgroundImage: 'url(assets/images/logo1.jpg)' }}>
-                <div className="box">
-                  <div className="container">
-                    <h2 className="title animated h1" data-animation="fadeInDown">
-                      Мебель для всех, любой сложности!
-                    </h2>
-                    <div className="animated" data-animation="fadeInUp">
-                      Мы специализируемся на создании качественной мебели для магазинов, ресторанов, гостиниц, баров и
-                      кафе, а также на создании и реализации проектов любой сложности.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item" style={{ backgroundImage: 'url(assets/images/logo2.jpg)' }}>
-                <div className="box">
-                  <div className="container">
-                    <h2 className="title animated h1" data-animation="fadeInDown">
-                      Натуральные и качественные материалы!
-                    </h2>
-                    <div className="animated" data-animation="fadeInUp">
-                      Мы создаем комбинированную мебель из разных материалов, таких, как металл, дерево, ЛДСП, ЛМДФ,
-                      искусственный камень, стекло и, в принципе, любой вид металла, который существует в природе.
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div className="item" style={{ backgroundImage: 'url(assets/images/logo3.jpg)' }}>
-                <div className="box">
-                  <div className="container">
-                    <h2 className="title animated h1" data-animation="fadeInDown">
-                      Индивидуальный подход!
-                    </h2>
-                    <div className="desc animated" data-animation="fadeInUp">
-                      Все наши изделия не шаблонны, а индивидуальны и не имеют аналога, потому что мы вкладываемся не
-                      только телом, но и душой.
-                    </div>
-                    <div className="animated" data-animation="fadeInUp">
-                      <a href="#" target="_blank" className="btn btn-clean" rel="noreferrer">
-                        Закажите сейчас
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </Carousel>
 
             <section className="info-icons info-icons-frontpage">
               <div className="container">

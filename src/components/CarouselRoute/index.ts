@@ -1,0 +1,1 @@
+export { CarouselRoute } from './CarouselRoute';
