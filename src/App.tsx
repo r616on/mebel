@@ -10,8 +10,8 @@ import './theme/bootstrap.css';
 import './theme/animate.css';
 import './fonts/index.js';
 import { HeaderTop } from './components/HeaderTop';
-import { HeaderBottom } from './components/HeaderBottom/HeaderBottom';
 import { Products } from './components/Products';
+import { HeaderSecond } from './components/HeaderSecond';
 
 function App() {
   return (
@@ -21,7 +21,7 @@ function App() {
 
         <div className="wrapper">
           <HeaderTop />
-
+          {/* <HeaderSecond /> */}
           <section className="info-icons info-icons-frontpage">
             <div className="container">
               <div className="row">

@@ -1,6 +1,9 @@
 import { PhoneOutlined } from '@ant-design/icons';
 import { Button } from 'antd';
 import { Icon, ICON } from '../Icons';
+import './nav.scss';
+import './header.scss';
+import './jq.js';
 
 export const HeaderTop = () => {
   return (
