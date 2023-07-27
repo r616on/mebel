@@ -13,14 +13,12 @@ export const ProductsModal: React.FC<IProduct> = (props) => {
         <div className="h1 title">{props.name}</div>
       </div>
 
-      <div style={{ display: 'flex', justifyContent: 'center' }}>
-        <Carousel style={{ maxWidth: 300, width: '100%' }} autoplay>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'end' }}>
+        <Image.PreviewGroup items={[props.img_1, props.img_2, props.img_3]}>
           <Image width={300} src={props.img_1} />
-
-          <Image width={300} src={props.img_2} />
-
-          <Image width={300} src={props.img_3} />
-        </Carousel>
+          <Image width={70} src={props.img_2} />
+          <Image width={70} src={props.img_3} />
+        </Image.PreviewGroup>
       </div>
 
       <div className="popup-content">

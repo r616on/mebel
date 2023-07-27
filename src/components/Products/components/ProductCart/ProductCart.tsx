@@ -1,8 +1,9 @@
 import { useState } from 'react';
-import { Modal } from 'antd';
+import { Modal, Space, Typography } from 'antd';
 import { ProductsModal } from './components/ProductsModal';
 import './styles.scss';
 import { IProduct } from '../../interface';
+const { Text, Title } = Typography;
 
 export const ProductCart: React.FC<IProduct> = (props) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -34,17 +35,19 @@ export const ProductCart: React.FC<IProduct> = (props) => {
           <div className="image">
             <img src={props.img_1} alt="" width="360" />
           </div>
-          <div className="text">
-            <h2 className="title h4">
-              <a href="product.html">{props.name}</a>
-            </h2>
-            <sub>{props.oldPrice}</sub>
-            <sup>{props.price}</sup>
+          <div className="text" style={{ backgroundColor: 'rgba(255, 250, 250, 0.5)' }}>
+            <Title className="title h4" level={4}>
+              {props.name}
+            </Title>
+            <Space>
+              <Text strong>{props.oldPrice}</Text>
+              <Text delete>{props.price}</Text>
+            </Space>
             <span className="description clearfix">{props.description}</span>
           </div>
         </div>
       </article>
-      <Modal open={isModalOpen} onOk={handleOk} okText="Добавить в корзину" onCancel={handleCancel}>
+      <Modal open={isModalOpen} destroyOnClose onOk={handleOk} okText="Добавить в корзину" onCancel={handleCancel}>
         <ProductsModal {...props} />
       </Modal>
     </div>
