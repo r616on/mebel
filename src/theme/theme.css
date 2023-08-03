@@ -2752,7 +2752,7 @@ header .text p:last-child {
 }
 
 .scroll-top.active {
-    bottom: 50px;
+    bottom: 80px;
 }
 
 .scroll-top:hover {

@@ -53,13 +53,13 @@ export const HeaderTop = () => {
               <Icon name={ICON.Logo} color={'rgb(236, 236, 236)'} />
             </div>
             <div className="floating-menu">
-              <ul>
+              {/* <ul>
                 <li>
                   <a href="#">
                     Каталог продукции <span className="open-dropdown"></span>
                   </a>
                 </li>
-              </ul>
+              </ul> */}
             </div>
           </div>
         </div>

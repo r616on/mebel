@@ -18,7 +18,7 @@ nav {
 
 nav.navbar-fixed {
     position: fixed;
-    background-color: transparent;
+    background-color:rgba(0,0,0,0.4);
 }
 
 nav.navbar-default {
@@ -116,7 +116,7 @@ nav .navigation-top {
 
 nav .navigation-top > ul {
     text-align: right;
-    height: 28px;
+    height: 37px;
     overflow: hidden;
     -moz-transition: all 0.3s;
     -o-transition: all 0.3s;
@@ -135,7 +135,7 @@ nav .navigation-top > ul > li > a:hover {
 
 @media (min-width: 991px) {
     nav .navigation-top > ul {
-        height: 35px;
+        height: 37px;
     }
     nav .navigation-top > ul > li > a {
         padding: 5px 15px;
