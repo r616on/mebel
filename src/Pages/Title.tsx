@@ -1,4 +1,5 @@
 import { Empty, Row } from 'antd';
+import { Header } from '../components/Header/Header';
 import Footer from '../components/Footer';
 import { HeaderTop } from '../components/HeaderTop';
 import { Products } from '../components/Products';
@@ -10,7 +11,7 @@ function Title() {
       <div className="page-loader"></div>
 
       <div className="wrapper">
-        <HeaderTop />
+        <Header />
         <Row style={{ justifyContent: 'center', alignItems: 'center', height: 300 }}>
           <Empty description="Извините. На сайте ведутся технические работы." />
         </Row>
