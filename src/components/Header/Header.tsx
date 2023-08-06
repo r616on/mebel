@@ -1,5 +1,5 @@
 import { PhoneOutlined } from '@ant-design/icons';
-import { Button, Row, Typography } from 'antd';
+import { Button, Card, Row, Typography } from 'antd';
 import Slider from 'react-slick';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 import { Carousel } from 'react-responsive-carousel';
@@ -32,40 +32,36 @@ export const Header = () => {
           onChange={(e) => setCaruselItem(e)}
           stopOnHover={false}
           emulateTouch
-          interval={5000}>
+          interval={7000}>
           <div>
-            {caruselItem === 0 && (
-              <CaroselItem
-                img={img1}
-                title={'Мебель для всех, любой сложности!'}
-                body={
-                  'Мы специализируемся на создании качественной мебели для магазинов, ресторанов, гостиниц, баров и кафе, а также на создании и реализации проектов любой сложности.'
-                }
-              />
-            )}
+            (
+            <CaroselItem
+              img={img1}
+              title={'Мебель для всех, любой сложности!'}
+              body={
+                'Мы специализируемся на создании качественной мебели для магазинов, ресторанов, гостиниц, баров и кафе, а также на создании и реализации проектов любой сложности.'
+              }
+            />
+            )
           </div>
           <div>
-            {caruselItem === 1 && (
-              <CaroselItem
-                img={img2}
-                title={'Натуральные и качественные материалы!'}
-                body={
-                  'Мы создаем комбинированную мебель из разных материалов, таких, как металл, дерево, ЛДСП, ЛМДФ, искусственный камень, стекло и, в принципе, любой вид металла, который существует в природе.'
-                }
-              />
-            )}
+            <CaroselItem
+              img={img2}
+              title={'Натуральные и качественные материалы!'}
+              body={
+                'Мы создаем комбинированную мебель из разных материалов, таких, как металл, дерево, ЛДСП, ЛМДФ, искусственный камень, стекло и, в принципе, любой вид металла, который существует в природе.'
+              }
+            />
           </div>
           <div>
-            {caruselItem === 2 && (
-              <CaroselItem
-                img={img3}
-                title={'Индивидуальный подход!'}
-                body={
-                  'Все наши изделия не шаблонны, а индивидуальны и не имеют аналога, потому что мы вкладываемся не только телом, но и душой.'
-                }
-                buttonText="Закажите сейчас"
-              />
-            )}
+            <CaroselItem
+              img={img3}
+              title={'Индивидуальный подход!'}
+              body={
+                'Все наши изделия не шаблонны, а индивидуальны и не имеют аналога, потому что мы вкладываемся не только телом, но и душой.'
+              }
+              buttonText="Закажите сейчас"
+            />
           </div>
         </Carousel>
         <Row className={styles.NavigatePanel} style={{ backgroundColor: visible ? '#4E565A' : 'rgba(0, 0, 0, 0.5)' }}>
@@ -142,6 +138,21 @@ export const Header = () => {
           </div>
         </Row>
       </nav>
+      <div className="container">
+        <Row
+          style={{ alignItems: 'center', width: '100%', justifyContent: 'center', marginTop: -150, marginBottom: 60 }}>
+          <Card size="small" style={{ width: 400 }}>
+            <Row style={{ flexDirection: 'column', width: '100%', alignItems: 'center' }}>
+              <Title level={4} style={{ marginBottom: 0 }}>
+                МЕБЕЛЬ БУДУЩЕГО
+              </Title>
+              <Title level={5} style={{ textTransform: 'initial', marginTop: 10 }}>
+                На шаг ближе к будущему!
+              </Title>
+            </Row>
+          </Card>
+        </Row>
+      </div>
       <div style={{ marginTop: 10 }} ref={ref}></div>
     </>
   );

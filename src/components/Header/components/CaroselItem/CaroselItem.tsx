@@ -25,13 +25,13 @@ export const CaroselItem = ({
         <motion.div
           className={'container'}
           initial={{
-            opacity: 0,
+            opacity: 0.3,
           }}
           animate={{
             opacity: 1,
           }}
           exit={{
-            opacity: 0,
+            opacity: 0.3,
           }}
           transition={{ duration: 1.5 }}>
           <Title level={2} style={{ color: '#ffffff', paddingLeft: 10, paddingRight: 10 }}>

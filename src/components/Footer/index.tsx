@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="footer-showroom">
           <div className="row">
             <div className="col-sm-8">
-              <h2>Приходите к нам</h2>
+              <h4>Сделайте правильный выбор и доверьте Ваш проект нам!</h4>
               <span>Тихорецкий тупик, 1/3, Калининград, 236011</span>
             </div>
             <div className="col-sm-4 text-center">

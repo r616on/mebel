@@ -1,7 +1,9 @@
 import { CheckCircleOutlined, CloseCircleOutlined } from '@ant-design/icons';
-import { Button, Carousel, Image, Space, Typography } from 'antd';
+import { Button, Image, Space, Typography } from 'antd';
 import React, { useEffect, useState } from 'react';
-import { IProduct } from '~/components/Products/interface';
+import { Carousel } from 'react-responsive-carousel';
+
+import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 import './styles.scss';
 const { Text, Title } = Typography;
@@ -24,11 +26,17 @@ export const ServicesModal = ({
       </div>
 
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'end' }}>
-        <Image.PreviewGroup items={images}>
-          <Image width={300} src={images[0]} />
-          <Image width={70} src={images[1]} />
-          <Image width={70} src={images[2]} />
-        </Image.PreviewGroup>
+        <Carousel showArrows={true} infiniteLoop autoPlay>
+          <div>
+            <img src={images[0]} />
+          </div>
+          <div>
+            <img src={images[1]} />
+          </div>
+          <div>
+            <img src={images[2]} />
+          </div>
+        </Carousel>
       </div>
 
       <div className="popup-content">
