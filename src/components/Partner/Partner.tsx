@@ -20,7 +20,7 @@ const PARTNERS = [
 
 export const Partner = () => {
   return (
-    <Row style={{ backgroundColor: '#4E565A', paddingTop: 30, paddingBottom: 30 }}>
+    <Row style={{ backgroundColor: '#4E565A', paddingTop: 30, paddingBottom: 30, width: '100%' }}>
       <div className="container" style={{}}>
         <Row style={{ justifyContent: 'center' }}>
           <Title level={3} style={{ color: 'white' }}>
@@ -28,7 +28,7 @@ export const Partner = () => {
           </Title>
         </Row>
       </div>
-      <Row>
+      <Row style={{ width: '100%' }}>
         <Carousel showArrows={true} infiniteLoop autoPlay showThumbs={false} showIndicators={false}>
           {PARTNERS &&
             PARTNERS.map((item) => (
